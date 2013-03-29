@@ -26,4 +26,4 @@ complete({
   }
 });
 
-console.log('Hello world. This is my app!');
+console.log('Hello world. This is my app!', process.argv.slice(2));
